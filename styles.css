@@ -106,3 +106,17 @@ button {
     opacity: .4;
     animation: move-clouds-back 200s linear infinite;
 }
+
+@media screen and (max-width: 450px) {
+
+    main h1 {
+        font-size: 30px;
+        text-align: center;
+        padding: 0px;
+        margin-bottom: 50px;
+    }
+
+    main .calculator label {
+        font-size: 16px;
+    }
+}
