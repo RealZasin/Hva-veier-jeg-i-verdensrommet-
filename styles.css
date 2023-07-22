@@ -107,7 +107,7 @@ button {
     animation: move-clouds-back 200s linear infinite;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
 
     main h1 {
         font-size: 30px;
