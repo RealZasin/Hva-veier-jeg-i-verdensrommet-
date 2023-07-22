@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Vektkalkulator for planeter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="universe">
+        <div class="stars">  </div>
+        <div class="twinkling">  </div>
+        <div class="clouds">  </div>
+        <div class="title">  </div>
+    </div>
+    <!-- <header>
+        <h1>Vektkalkulator for planeter</h1>
+    </header> -->
+    <main>
+        <h1>Hva veier jeg i verdensrommet?</h1>
+        <div class="calculator">
+            <label for="weightInput">Skriv inn vekten din:</label> <br>
+            <input type="number" id="weightInput" placeholder="Vekt i kg" min="0"> 
+            <button id="calculateButton">Beregn</button>
+        </div>
+        <div id="results"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
