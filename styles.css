@@ -5,6 +5,7 @@ body {
     padding: 0;
     font-family: 'Space Mono', monospace;
     z-index: 3;
+    text-align: center;
 }
 
 header {
@@ -32,13 +33,18 @@ main {
 }
 
 .calculator {
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 10px;
     align-items: center;
-    max-width: 400px;
+    max-width: 600px;
     margin-bottom: 40px;
     z-index: 3;
+}
+
+.calculator label {
+    font-size: 25px;
 }
 
 label {
@@ -110,10 +116,14 @@ button {
 @media screen and (max-width: 550px) {
 
     main h1 {
-        font-size: 30px;
+        font-size: 40px;
         text-align: center;
         padding: 0px;
         margin-bottom: 50px;
+    }
+
+    main .calculator {
+        margin: auto;
     }
 
     main .calculator label {
